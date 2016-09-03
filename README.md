@@ -1,14 +1,14 @@
-+++
-date        : "2016-09-03"
-title       : "GCG: GHDL Code Generator"
-description : "The gcg project aims to create models or templates to facilitate the creation, execution of projects with VHDL code on ghdl"
-tags        : [ "Development", "VHDL", "GHDL" ]
-topics      : [ "Development", "VHDL" ]
-slug        : "gcg"
-project_url : "https://github.com/rogerioag/gcg"
-author		: "Rogério Aparecido Gonçalves"
-e-mail		: "rogerio.rag@gmail.com"
-+++
+---
+date        = "2016-09-03"
+title       = "GCG: GHDL Code Generator"
+description = "The gcg project aims to create models or templates to facilitate the creation, execution of projects with VHDL code on ghdl"
+tags        = [ "Development", "VHDL", "GHDL" ]
+topics      = [ "Development", "VHDL" ]
+slug        = "gcg"
+project_url = "https://github.com/rogerioag/gcg"
+author		= "Rogério Aparecido Gonçalves"
+e-mail		= "rogerio.rag@gmail.com"
+---
 
 # GHDL Code Gen (gcg)
 The gcg project aims to create models or templates to facilitate the creation, execution of projects with VHDL code on ghdl.
