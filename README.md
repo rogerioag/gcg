@@ -1,13 +1,10 @@
-# gcg
+# GHDL Code Gen (gcg) - (https://github.com/rogerioag/gcg)
 The gcg project aims to create models or templates to facilitate the creation, execution of projects with VHDL code on ghdl.
 
-# gcg Project
-# GHDL Code Gen (gcg) - (https://github.com/rogerioag/gcg)
-# 
-# Rogério A. Gonçalves
-# rogerio.rag@gmail.com
-# http://rag.pro.br
-#
+### author: Rogério A. Gonçalves
+### rogerio.rag@gmail.com
+### http://rag.pro.br
+
 # The Makefile and templates were created to facilitate the creation and 
 # execution of VHDL projects in GHDL (http://ghdl.free.fr).
 
