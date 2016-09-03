@@ -10,7 +10,7 @@ author		= "Rogério Aparecido Gonçalves"
 e-mail		= "rogerio.rag@gmail.com"
 ---
 
-# GHDL Code Gen (gcg) - (https://github.com/rogerioag/gcg)
+# GHDL Code Gen (gcg)
 The gcg project aims to create models or templates to facilitate the creation, execution of projects with VHDL code on ghdl.
 
 The Makefile and templates were created to facilitate the creation and execution of VHDL projects in [GHDL](http://ghdl.free.fr).
@@ -21,10 +21,13 @@ Download the source of gcg, copy src directory and rename to main entity name of
 Access the directory and execute commands:
 
 ## Create the project directories and initial files
-
+```
 	$ make new PROJECT=entityName ARCH=ArchitectureType IN=port1,...,portN OUT=port1,...,portN
+```
 or
+```
 	$ make new PROJECT=entityName ARCH=ArchitectureType IN="port1, ..., portN" OUT="port1, ..., portN"
+```
 
 Where:
 PROJECT: Entity Name that will designed.
@@ -49,15 +52,20 @@ Create architecture commands in src/entityName.vhd and test cases in testbench/e
 
 ## Compile, Run and view results
 
+```
 	$ make compile TESTBENCH=entityName_tb
 	$ make run TESTBENCH=entityName_tb
 	$ make view TESTBENCH=entityName_tb
+```
 
 ## Make all command: compile, run and view.
 
+```
 	$ make all TESTBENCH=entityName_tb
+```
 
 ## Cleaning project source code (delete simulation directory)
 
+```
 	$ make clean
-
+```
