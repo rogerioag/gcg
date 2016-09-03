@@ -22,11 +22,11 @@ Access the directory and execute commands:
 
 ## Create the project directories and initial files
 ```
-	$ make new PROJECT=entityName ARCH=ArchitectureType IN=port1,...,portN OUT=port1,...,portN
+$ make new PROJECT=entityName ARCH=ArchitectureType IN=port1,...,portN OUT=port1,...,portN
 ```
 or
 ```
-	$ make new PROJECT=entityName ARCH=ArchitectureType IN="port1, ..., portN" OUT="port1, ..., portN"
+$ make new PROJECT=entityName ARCH=ArchitectureType IN="port1, ..., portN" OUT="port1, ..., portN"
 ```
 
 Where:
@@ -53,19 +53,19 @@ Create architecture commands in src/entityName.vhd and test cases in testbench/e
 ## Compile, Run and view results
 
 ```
-	$ make compile TESTBENCH=entityName_tb
-	$ make run TESTBENCH=entityName_tb
-	$ make view TESTBENCH=entityName_tb
+$ make compile TESTBENCH=entityName_tb
+$ make run TESTBENCH=entityName_tb
+$ make view TESTBENCH=entityName_tb
 ```
 
 ## Make all command: compile, run and view.
 
 ```
-	$ make all TESTBENCH=entityName_tb
+$ make all TESTBENCH=entityName_tb
 ```
 
 ## Cleaning project source code (delete simulation directory)
 
 ```
-	$ make clean
+$ make clean
 ```
