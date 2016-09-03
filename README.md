@@ -11,16 +11,16 @@ The gcg project aims to create models or templates to facilitate the creation, e
 # The Makefile and templates were created to facilitate the creation and 
 # execution of VHDL projects in GHDL (http://ghdl.free.fr).
 
-Step by Step
+# Step by Step
 ------------------------------------------------------------------------
 Download the source of gcg, copy src directory and rename to main entity name of new project.
 Access the directory and execute commands:
 
-Create the project directories and initial files
+# Create the project directories and initial files
 ------------------------------------------------------------------------
-make new PROJECT=entityName ARCH=ArchitectureType IN=port1,...,portN OUT=port1,...,portN
+	$make new PROJECT=entityName ARCH=ArchitectureType IN=port1,...,portN OUT=port1,...,portN
 or
-make new PROJECT=entityName ARCH=ArchitectureType IN="port1, ..., portN" OUT="port1, ..., portN"
+	$make new PROJECT=entityName ARCH=ArchitectureType IN="port1, ..., portN" OUT="port1, ..., portN"
 
 Where:
 PROJECT: Entity Name that will designed.
