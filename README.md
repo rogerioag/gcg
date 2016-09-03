@@ -68,4 +68,4 @@ $ make all TESTBENCH=entityName_tb
 ```
 $ make clean
 ```
-[Wiki](wiki)
+[Wiki](https://github.com/rogerioag/gcg/wiki)
