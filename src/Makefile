@@ -1,5 +1,5 @@
 # gcg Project
-# GHDL Code Gen (gcg) - (http://code.google.com/p/gcg/)
+# GHDL Code Gen (gcg)
 #
 # Rogério A. Gonçalves
 # rogerio.rag@gmail.com
